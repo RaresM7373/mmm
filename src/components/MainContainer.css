@@ -1,0 +1,116 @@
+.text-galben-png-2 {
+  height: 69px;
+  width: 150.7px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.pentru-soferi1 {
+  width: 164px;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}
+.pentru-soferi {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+}
+.pentru-clienti2 {
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+}
+.pentru-clienti,
+.pentru-clienti1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pentru-clienti1 {
+  flex: 1;
+}
+.pentru-clienti {
+  width: 191.2px;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.inscrie-te {
+  width: 122px;
+  position: relative;
+  display: inline-block;
+  min-width: 122px;
+}
+.driver-client-options,
+.driver-client-options-inner,
+.inscrie-te-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inscrie-te-wrapper {
+  border-radius: var(--br-15xl);
+  background-color: var(--primary-color);
+  overflow: hidden;
+  padding: var(--padding-3xs) var(--padding-5xl-9);
+}
+.driver-client-options,
+.driver-client-options-inner {
+  color: var(--color-darkslategray-300);
+}
+.driver-client-options {
+  margin: 0;
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--body);
+}
+.main-container1,
+.nav-options,
+.navbar {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.nav-options {
+  width: 694.9px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+}
+.main-container1,
+.navbar {
+  flex-direction: row;
+}
+.navbar {
+  width: 1323px;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--padding-base) 0 0;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.main-container1 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-14xl) var(--padding-14xl);
+}
+@media screen and (max-width: 1050px) {
+  .driver-client-options {
+    display: none;
+  }
+  .nav-options {
+    width: 0;
+  }
+}

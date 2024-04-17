@@ -1,0 +1,68 @@
+.logo-elements-icon {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.logos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+}
+.logos-child {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.logos1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+}
+.logos-icon,
+.logos-icon1 {
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 150px;
+}
+.logos-icon {
+  height: 150px;
+  width: 150px;
+}
+.logos-icon1 {
+  align-self: stretch;
+  width: 161px;
+  max-height: 100%;
+}
+.clients-logos,
+.logos-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.logos-parent {
+  width: 993px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.clients-logos {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) var(--padding-21xl) var(--padding-xl);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 750px) {
+  .logos-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,94 @@
+.text-galben-png-21 {
+  height: 69px;
+  width: 149px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.pentru-soferi3 {
+  width: 164px;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}
+.pentru-soferi2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pentru-clienti5 {
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+}
+.pentru-clienti3,
+.pentru-clienti4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pentru-clienti4 {
+  flex: 1;
+}
+.pentru-clienti3 {
+  width: 189px;
+  padding: 0 var(--padding-5xs) 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.inscrie-te1 {
+  width: 122px;
+  position: relative;
+  display: inline-block;
+  min-width: 122px;
+}
+.frame-wrapper2,
+.inscrie-te-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inscrie-te-container {
+  border-radius: var(--br-15xl);
+  background-color: var(--primary-color);
+  overflow: hidden;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.frame-wrapper2 {
+  color: var(--color-darkslategray-300);
+}
+.pentru-soferi-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navbar-inner,
+.navbar1 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.navbar-inner {
+  width: 687px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+}
+.navbar1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--padding-base) 0 0;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--body);
+}

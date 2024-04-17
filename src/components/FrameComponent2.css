@@ -1,0 +1,237 @@
+.eye-1-icon {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  object-fit: cover;
+}
+.visibility-feature-icons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.vizbilitate {
+  width: 167px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.vizbilitate-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.taxiurile-noastre-parcurg {
+  align-self: stretch;
+  height: 81px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.impact-icon,
+.visibility-feature-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.impact-icon {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.visibility-feature-content {
+  width: 542px;
+  gap: var(--gap-8xl);
+  max-width: 100%;
+}
+.target-1-icon {
+  height: 127px;
+  width: 122px;
+  position: relative;
+  object-fit: cover;
+}
+.target-1-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.impact-targetat {
+  width: 281px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.impact-targetat-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.mmm1 {
+  color: var(--primary-color);
+}
+.cu-mmm-reclamele-container {
+  align-self: stretch;
+  height: 81px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame-parent2,
+.visibility-feature-content1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent2 {
+  align-self: stretch;
+  gap: var(--gap-mini);
+}
+.visibility-feature-content1 {
+  width: 542px;
+  gap: var(--gap-8xl);
+  max-width: 100%;
+}
+.visibility-feature {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.agility-1-icon {
+  height: 154px;
+  width: 154px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.agility-1-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.flexibilitate-i-control {
+  align-self: stretch;
+  position: relative;
+}
+.flexibility-header,
+.flexibility-icon-container {
+  width: 364px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.flexibility-header {
+  width: 762px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.de-la-campanii {
+  align-self: stretch;
+  height: 81px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.flexibility-content {
+  width: 830px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.flexibility-feature {
+  width: 1194px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.feature-container,
+.feature-container-wrapper,
+.flexibility-feature {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.feature-container {
+  width: 1225px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-101xl);
+}
+.feature-container-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-20xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--subheader-size);
+  color: var(--color-white);
+  font-family: var(--body);
+}
+@media screen and (max-width: 1225px) {
+  .visibility-feature {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .flexibilitate-i-control,
+  .impact-targetat,
+  .vizbilitate {
+    font-size: var(--font-size-7xl);
+  }
+  .feature-container {
+    gap: var(--gap-41xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .vizbilitate {
+    font-size: var(--font-size-lgi);
+  }
+  .taxiurile-noastre-parcurg {
+    font-size: var(--font-size-base);
+  }
+  .impact-targetat {
+    font-size: var(--font-size-lgi);
+  }
+  .cu-mmm-reclamele-container {
+    font-size: var(--font-size-base);
+  }
+  .flexibilitate-i-control {
+    font-size: var(--font-size-lgi);
+  }
+  .de-la-campanii {
+    font-size: var(--font-size-base);
+  }
+  .feature-container {
+    gap: var(--gap-11xl);
+  }
+}

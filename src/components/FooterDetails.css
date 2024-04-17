@@ -1,0 +1,245 @@
+.contact-us2 {
+  height: 33px;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.contact-info-area {
+  width: 297px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+}
+.icbaseline-facebook-icon,
+.mditelephone-icon {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  z-index: 1;
+}
+.icbaseline-facebook-icon {
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.contact-icons {
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+}
+.mdiinstagram-icon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.social-icons-area {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.icbaseline-phone-icon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.phone-icon-area {
+  width: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.facebook {
+  height: 33px;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.facebook-instagram-label {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.instagram {
+  height: 33px;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.facebook-instagram-label1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.div {
+  width: 233px;
+  height: 33px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+.social-labels,
+.social-media-icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.social-labels {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-10xl-5);
+  min-width: 247px;
+  margin-left: -1px;
+}
+.social-media-icons {
+  width: 431px;
+  flex-direction: row;
+  row-gap: 20px;
+}
+.advertisingmmminvestscom {
+  height: 33px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.icbaseline-facebook-icon1,
+.material-symbolsmail-icon {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  z-index: 1;
+}
+.icbaseline-facebook-icon1 {
+  top: 0;
+  left: 11px;
+  z-index: 2;
+}
+.email-social-icon {
+  height: 46px;
+  width: 51px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -16px;
+  left: -48px;
+}
+.contact-details-area,
+.email-area {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.email-area {
+  justify-content: flex-start;
+  position: relative;
+}
+.contact-details-area {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.social-media-links {
+  align-self: stretch;
+  gap: var(--gap-mid);
+}
+.footer-details,
+.footer-main,
+.social-media-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.footer-main {
+  align-self: stretch;
+  gap: var(--gap-10xl);
+}
+.footer-details {
+  width: 530px;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 530px;
+  text-align: left;
+  font-size: var(--body-size);
+  color: var(--color-white);
+  font-family: var(--body);
+}
+@media screen and (max-width: 1425px) {
+  .footer-details {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer-details {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 825px) {
+  .advertisingmmminvestscom,
+  .contact-us2,
+  .div,
+  .facebook,
+  .instagram {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact-us2,
+  .div,
+  .facebook,
+  .instagram {
+    font-size: var(--font-size-lg);
+  }
+  .social-labels {
+    margin-left: 0;
+  }
+  .social-media-icons {
+    flex-wrap: wrap;
+  }
+  .advertisingmmminvestscom {
+    font-size: var(--font-size-lg);
+  }
+}

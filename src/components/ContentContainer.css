@@ -1,0 +1,195 @@
+.background-shape-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+
+  object-fit: cover;
+}
+.agenie-de-publicitate {
+  color: var(--primary-color);
+}
+.o-agenie-de-container {
+  margin: 0;
+  height: 183px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.background-shape-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 100vw;
+}
+.partenerul-tu-strategic {
+  margin: 0;
+}
+.partenerul-tu-strategic-container {
+  width: 439px;
+  position: relative;
+  font-size: var(--subheader-size);
+  display: inline-block;
+  font-family: var(--body);
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-parent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-30xl);
+  max-width: 100%;
+}
+.start-campanie1 {
+  width: 206px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  font-family: var(--body);
+  color: var(--color-darkslategray-300);
+  text-align: center;
+}
+.start-campanie-container {
+  border-radius: var(--br-15xl);
+  background-color: var(--primary-color);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-35xl);
+  white-space: nowrap;
+}
+.hero-content,
+.hero-content-inner,
+.start-campanie-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hero-content-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex-direction: row;
+  z-index: 1;
+}
+.hero-content {
+  width: 580px;
+  flex-direction: column;
+  gap: var(--gap-48xl);
+  max-width: 100%;
+}
+.de-ce-sa {
+  margin: 0;
+  width: 678px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.text-galben-png-3 {
+  height: 65px;
+  width: 128px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+  margin-left: -222px;
+}
+.why-choose-us-header {
+  width: 678px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.why-choose-us-header-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+}
+.content-container,
+.hero-content-parent,
+.why-choose-us-header-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.hero-content-parent {
+  width: 1022px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-72xl);
+}
+.content-container {
+  width: 1226px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-6xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--header-size);
+  color: var(--color-white);
+  font-family: var(--header);
+}
+@media screen and (max-width: 1050px) {
+  .hero-content-parent {
+    gap: var(--gap-26xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .o-agenie-de-container {
+    font-size: var(--font-size-23xl);
+  }
+  .partenerul-tu-strategic-container {
+    font-size: var(--font-size-7xl);
+  }
+  .frame-parent1 {
+    gap: var(--gap-5xl);
+  }
+  .hero-content {
+    gap: var(--gap-14xl);
+  }
+  .de-ce-sa {
+    font-size: var(--font-size-23xl);
+  }
+  .hero-content-parent {
+    gap: var(--gap-4xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .o-agenie-de-container {
+    font-size: var(--subheader-size);
+  }
+  .partenerul-tu-strategic-container {
+    font-size: var(--font-size-lgi);
+  }
+  .start-campanie-container {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .hero-content {
+    gap: var(--gap-mid);
+  }
+  .de-ce-sa {
+    font-size: var(--subheader-size);
+  }
+}

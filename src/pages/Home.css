@@ -1,0 +1,109 @@
+.clienti-cu-care {
+  margin: 0;
+  height: 72px;
+  width: 481px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.clienti-cu-care-colaboram-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-4xl) var(--padding-21xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--header-size);
+  color: rgba(255, 255, 255, 0.2);
+  font-family: var(--header);
+}
+.start-campanie {
+  width: 295px;
+  position: relative;
+  display: inline-block;
+}
+.start-campanie-wrapper {
+  flex: 1;
+  border-radius: var(--br-15xl);
+  background-color: var(--primary-color);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-17xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-wrapper,
+.home,
+.home-inner,
+.start-campanie-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-wrapper {
+  width: 547px;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.home,
+.home-inner {
+  box-sizing: border-box;
+}
+.home-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-4xl) 63px var(--padding-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: 36px;
+  color: #312b33;
+  font-family: var(--body);
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslategray-200);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-34xl) 0 0;
+  gap: 121px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .home {
+    gap: var(--gap-41xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .clienti-cu-care {
+    font-size: var(--font-size-23xl);
+  }
+  .start-campanie {
+    font-size: 29px;
+  }
+  .home {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .clienti-cu-care {
+    font-size: var(--subheader-size);
+  }
+  .start-campanie {
+    font-size: 22px;
+  }
+  .home {
+    gap: var(--gap-mini);
+  }
+}
