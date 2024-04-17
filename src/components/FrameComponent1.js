@@ -40,20 +40,8 @@ const FrameComponent1 = () => {
             </div>
             <div className="taxi-visibility">
               <img className="taxi-1-icon" alt="" src="/taxi-1@2x.png" />
-              <img className="visibility-path-icon" alt="" />
-              <div className="path-segments">
-                <img className="path-segments-child" loading="lazy" alt="" />
-                <img className="path-segments-item" loading="lazy" alt="" />
-                <img className="path-segments-inner" loading="lazy" alt="" />
-                <img className="path-segments-child1" loading="lazy" alt="" />
-                <img className="path-segments-child2" loading="lazy" alt="" />
-                <img className="path-segments-child3" loading="lazy" alt="" />
-                <img className="final-path-segment" alt="" />
-              </div>
             </div>
           </div>
-          <img className="targeting-options-child" alt="" />
-          <img className="targeting-options-item" alt="" />
         </div>
       </div>
     </section>

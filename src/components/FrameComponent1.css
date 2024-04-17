@@ -255,7 +255,7 @@
   justify-content: flex-start;
 }
 .targeting-options {
-  width: 1512px;
+  width: 100%;
   flex-direction: column;
   padding: var(--padding-141xl) var(--padding-81xl) var(--padding-203xl);
   box-sizing: border-box;
@@ -274,7 +274,7 @@
   z-index: 1;
 }
 .targeting-wrapper {
-  width: 1561px;
+  width: 100vw;
   padding: 0 0 var(--padding-3xs);
   box-sizing: border-box;
   max-width: 103%;

@@ -13,12 +13,6 @@ const FooterDetails = ({ mditelephone, icbaselineFacebook1 }) => {
               <div className="social-icons-area">
                 <div className="contact-icons">
                   <img
-                    className="mditelephone-icon"
-                    loading="lazy"
-                    alt=""
-                    src={mditelephone}
-                  />
-                  <img
                     className="icbaseline-facebook-icon"
                     alt=""
                     src="/icbaselinefacebook.svg"
@@ -58,11 +52,6 @@ const FooterDetails = ({ mditelephone, icbaselineFacebook1 }) => {
                   className="material-symbolsmail-icon"
                   alt=""
                   src="/materialsymbolsmail.svg"
-                />
-                <img
-                  className="icbaseline-facebook-icon1"
-                  alt=""
-                  src={icbaselineFacebook1}
                 />
               </div>
             </div>

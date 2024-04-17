@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import FooterDetails from "../components/FooterDetails";
@@ -6,6 +6,7 @@ import "./Oferte.css";
 
 const Oferte = () => {
   const navigate = useNavigate();
+  const [showContact, setShowContact] = useState(false);
 
   const onTextGalbenPng2Click = useCallback(() => {
     navigate("/");
@@ -18,7 +19,7 @@ const Oferte = () => {
   return (
     <div className="oferte">
       <div className="oferte-child" />
-      <section className="main-container">
+      <section className="main-container" style={{ width: "100vw" }}>
         <div className="navbar-parent">
           <NavBar
             onTextGalbenPng2Click={onTextGalbenPng2Click}
@@ -26,7 +27,24 @@ const Oferte = () => {
           />
           <div className="oferte-wrapper">
             <h2 className="oferte1">Oferte</h2>
-          </div>
+            <br />
+          </div>{" "}
+          {
+            <div
+              style={{
+                width: "100vw",
+              }}
+            >
+              <p style={{ fontSize: 24, textAlign: "center" }}>
+                Email: advertising@mmminvests.com
+              </p>
+              <p
+                style={{ fontSize: 24, textAlign: "center", display: "block" }}
+              >
+                Telefon: 0768691986
+              </p>
+            </div>
+          }
         </div>
         <div className="pricing-table">
           <div className="table-header">
@@ -75,6 +93,7 @@ const Oferte = () => {
             <div className="purchase-button">
               <div className="buy-now2">
                 <div className="button-box" />
+
                 <div className="buy-now3">Buy now</div>
               </div>
             </div>

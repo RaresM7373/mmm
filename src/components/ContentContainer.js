@@ -3,22 +3,26 @@ import "./ContentContainer.css";
 const ContentContainer = () => {
   return (
     <section className="content-container">
+      <img
+        className="background-shape-icon"
+        alt=""
+        src="/background-shape@2x.png"
+        data-scroll-to="backgroundShapeImage"
+      />
       <div className="hero-content-parent">
         <div className="hero-content">
           <div className="frame-parent1">
             <div className="background-shape-parent">
-              <img
-                className="background-shape-icon"
-                alt=""
-                src="/background-shape@2x.png"
-                data-scroll-to="backgroundShapeImage"
-              />
               <h2 className="o-agenie-de-container">
                 <span>{`O `}</span>
+
                 <span className="agenie-de-publicitate">
-                  agenție de publicitate
+                  agenție de <br /> publicitate
                 </span>
-                <span> pentru o lume modernă</span>
+                <span>
+                  {" "}
+                  pentru o <br /> lume modernă
+                </span>
               </h2>
             </div>
             <b className="partenerul-tu-strategic-container">
@@ -36,13 +40,14 @@ const ContentContainer = () => {
         </div>
         <div className="why-choose-us-header-wrapper">
           <div className="why-choose-us-header">
-            <h2 className="de-ce-sa">De ce sa alegi ?</h2>
+            <h2 className="de-ce-sa">De ce sa alegi </h2>
             <img
               className="text-galben-png-3"
               loading="lazy"
               alt=""
               src="/text-galben-png-3@2x.png"
             />
+            <h2 style={{ display: "inline" }}>?</h2>
           </div>
         </div>
       </div>

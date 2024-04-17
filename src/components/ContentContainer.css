@@ -1,6 +1,6 @@
 .background-shape-icon {
-  height: 100%;
   width: 100%;
+  height: 800px;
   position: absolute;
   margin: 0 !important;
   top: 0;
@@ -93,7 +93,8 @@
 }
 .de-ce-sa {
   margin: 0;
-  width: 678px;
+
+  /* width: 678px; */
   position: relative;
   font-size: inherit;
   font-weight: 700;
@@ -105,17 +106,15 @@
 }
 .text-galben-png-3 {
   height: 65px;
-  width: 128px;
-  position: relative;
+  margin: 0 24px;
   object-fit: cover;
   z-index: 1;
-  margin-left: -222px;
 }
 .why-choose-us-header {
   width: 678px;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   max-width: 100%;
 }
@@ -132,6 +131,7 @@
   align-items: flex-start;
   max-width: 100%;
 }
+
 .hero-content-parent {
   width: 1022px;
   flex-direction: column;
@@ -139,15 +139,15 @@
   gap: var(--gap-72xl);
 }
 .content-container {
-  width: 1226px;
+  width: 100vw;
   flex-direction: row;
-  justify-content: center;
-  padding: 0 var(--padding-xl) var(--padding-6xs);
+  justify-content: flex-start;
   box-sizing: border-box;
   text-align: left;
   font-size: var(--header-size);
   color: var(--color-white);
   font-family: var(--header);
+  padding: 0 105px;
 }
 @media screen and (max-width: 1050px) {
   .hero-content-parent {

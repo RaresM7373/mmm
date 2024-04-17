@@ -5,6 +5,10 @@ import "./MainContainer.css";
 const MainContainer = () => {
   const navigate = useNavigate();
 
+  const goToContactUs = () => {
+    navigate("/contact-us");
+  };
+
   const onTextGalbenPng2Click = useCallback(() => {
     const anchor = document.querySelector(
       "[data-scroll-to='backgroundShapeImage']"
@@ -30,19 +34,24 @@ const MainContainer = () => {
         />
         <div className="nav-options">
           <nav className="driver-client-options">
-            <div className="pentru-soferi">
+            <div className="pentru-soferi" onClick={goToContactUs}>
               <b className="pentru-soferi1"> Pentru Soferi</b>
             </div>
             <div
               className="pentru-clienti"
               onClick={onPentruClientiContainerClick}
             >
-              <div className="pentru-clienti1">
+              <div className="pentru-clienti1" onClick={goToContactUs}>
                 <b className="pentru-clienti2">Pentru Clienti</b>
               </div>
             </div>
             <div className="driver-client-options-inner">
-              <div className="inscrie-te-wrapper">
+              <div
+                className="inscrie-te-wrapper"
+                onClick={() => {
+                  navigate("/oferte");
+                }}
+              >
                 <b className="inscrie-te">Inscrie-te</b>
               </div>
             </div>

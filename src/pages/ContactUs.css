@@ -363,7 +363,7 @@
   debug_commit: f6aba90;
 }
 .group-div {
-  width: 1512px;
+  width: 100%;
   background-color: var(--color-darkslategray-100);
   display: flex;
   flex-direction: row;
